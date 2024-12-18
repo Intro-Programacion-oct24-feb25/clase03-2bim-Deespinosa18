@@ -18,6 +18,7 @@ public class Ejemplo04 {
         // Creación de arreglo bidimensionales
         
         // forma 1
+        int sumaT=0;
         int[][] arreglo1 = {
             
             {10, 20, 40},  // fila 0
@@ -37,9 +38,12 @@ public class Ejemplo04 {
                      // 0 + arreglo1[0][0] // 0 + 10 // 10
                      // 10 + arreglo1[0][1] // 10 + 20 // 30
                      // 30 + arreglo1[0][2] // 30 + 40 // 70
+                     
             }
-            System.out.printf("Suma de valores del arreglo: %d\n", suma);
+            sumaT= sumaT+suma;
+            System.out.printf(" Suma de valores del arreglo: %d\n ", suma);
         }
+        System.out.printf("La suma total de los arreglos fue: %d\n",sumaT);
         
         // System.out.printf("Suma de valores del arreglo: %d\n", suma);
     }
