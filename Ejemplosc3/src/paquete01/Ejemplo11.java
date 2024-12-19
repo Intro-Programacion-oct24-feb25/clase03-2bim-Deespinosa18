@@ -33,6 +33,13 @@ public class Ejemplo11 {
         30   52
         */
         
+        /*
+        en este codigo se utilizan tres arreglos para asi con el arreglo de suma poder
+        rescatar los valores de la suma de cada posicion ejm en la posicion 00 la 
+        suma es de 4 ya que 1+3 =4 estos valores de la suma son
+        del arreglo 1 y 2 en la posicion 00
+        */
+        
         int valor1;
         int valor2;
         
@@ -46,7 +53,7 @@ public class Ejemplo11 {
         
         for (int fila = 0; fila < sumaArreglo.length; fila++) {
             for (int col = 0; col < sumaArreglo[fila].length; col++) {
-                System.out.printf("%d\t\n", sumaArreglo[fila][col]);
+                System.out.printf("%d\t", sumaArreglo[fila][col]);
             }
             System.out.println("");
         }
